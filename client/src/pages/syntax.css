@@ -1,0 +1,7 @@
+/* Frosted Signal Lab: kaynak kodu, Signal Cyan anahtar kelimeler ve sıcak sayısal vurgularla okunur. */
+.code-line { display: block; }
+.tok-comment { color: #577f7a; font-style: italic; }
+.tok-keyword { color: #72e7ff; }
+.tok-function { color: #d1b4ff; }
+.tok-string { color: #a5e6b9; }
+.tok-number { color: #f7cc75; }

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050" role="img" aria-labelledby="title desc">
+  <title id="title">Donanım ajanı için renk tonu seçenekleri</title>
+  <desc id="desc">Dört renk teması yan yana gösterilmiştir: Derin Lacivert, Kömür Mavisi, Koyu Petrol ve Sıcak Obsidyen.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#06111a" flood-opacity=".16"/></filter>
+    <style>
+      .t{font-family:Arial,Helvetica,sans-serif}.mono{font-family:monospace}.title{font-size:32px;font-weight:700}.sub{font-size:16px}.name{font-size:20px;font-weight:700}.tag{font-size:12px;font-weight:700;letter-spacing:1.2px}.body{font-size:13px}.tiny{font-size:10px}.btn{font-size:12px;font-weight:700}
+    </style>
+  </defs>
+  <rect width="1600" height="1050" fill="#eef3f5"/>
+  <text x="85" y="88" class="t title" fill="#183444">Hangi atmosfer sana daha yakın?</text>
+  <text x="85" y="122" class="t sub" fill="#617b88">Aşağıdaki dört rengin her biri aynı mühendislik sohbet ekranında böyle görünür.</text>
+
+  <!-- 1 Deep Navy -->
+  <g transform="translate(85 182)" filter="url(#shadow)">
+    <rect width="335" height="720" rx="18" fill="#0b1220"/>
+    <rect x="16" y="16" width="303" height="74" rx="10" fill="#111d31"/>
+    <circle cx="43" cy="43" r="14" fill="#7dd3fc"/><path d="M37 43h12M43 37v12" stroke="#0b1220" stroke-width="2"/>
+    <text x="67" y="41" class="t name" fill="#eef8ff">Derin Lacivert</text><text x="67" y="61" class="mono tiny" fill="#94b8ca">TEKNİK • SAKİN • GÜVENLİ</text>
+    <rect x="16" y="110" width="303" height="41" rx="8" fill="#152642" stroke="#7dd3fc" stroke-opacity=".34"/><text x="31" y="136" class="t btn" fill="#d9f7ff">+ Yeni mühendislik sohbeti</text>
+    <text x="19" y="185" class="mono tag" fill="#799db0">BUGÜN</text><line x1="77" y1="181" x2="300" y2="181" stroke="#294258"/>
+    <circle cx="33" cy="222" r="15" fill="#163354" stroke="#7dd3fc"/><text x="57" y="218" class="t body" fill="#d8e9f2">Donanım &amp; TinyML Mühendisi</text><text x="57" y="238" class="t tiny" fill="#9eb9c7">Bağlantıları ve güç bütçesini hazırladım.</text>
+    <rect x="61" y="270" width="238" height="76" rx="10" fill="#1b293e"/><text x="77" y="298" class="t body" fill="#f0f8fb">ESP32 ile motor sürücü tasarla.</text><text x="77" y="319" class="t tiny" fill="#9eb0bc">Pin eşlemesi ve kod da olsun.</text>
+    <rect x="19" y="378" width="281" height="186" rx="9" fill="#101a2a" stroke="#355775"/><text x="37" y="407" class="t name" fill="#ddf7ff">Teknik rapor</text><text x="37" y="428" class="mono tiny" fill="#89afc2">MİMARİ • DRC • KOD • BOM</text><line x1="37" y1="446" x2="282" y2="446" stroke="#29475e"/><rect x="37" y="463" width="113" height="54" fill="#14263d"/><rect x="159" y="463" width="113" height="54" fill="#14263d"/><text x="47" y="482" class="mono tiny" fill="#87b8cb">HEDEF MCU</text><text x="47" y="503" class="mono body" fill="#bdf2ff">ESP32-S3</text><text x="169" y="482" class="mono tiny" fill="#87b8cb">BELLEK</text><text x="169" y="503" class="mono body" fill="#bdf2ff">520 KB</text><text x="37" y="544" class="t body" fill="#d1e2ea">Mimari doğrulandı, 2 uyarı var.</text>
+    <rect x="16" y="648" width="303" height="52" rx="16" fill="#17263b" stroke="#425d72"/><text x="34" y="680" class="t body" fill="#90adbc">Projenizi anlatın…</text><circle cx="290" cy="674" r="17" fill="#7dd3fc"/><path d="M284 674h11M291 668l6 6-6 6" fill="none" stroke="#0b1220" stroke-width="2"/>
+  </g>
+  <g transform="translate(85 926)"><circle cx="11" cy="11" r="11" fill="#0b1220"/><circle cx="38" cy="11" r="11" fill="#16233b"/><circle cx="65" cy="11" r="11" fill="#7dd3fc"/><text x="95" y="17" class="t body" fill="#284654">1. Daha teknik ve sakin</text></g>
+
+  <!-- 2 Graphite Blue -->
+  <g transform="translate(460 182)" filter="url(#shadow)">
+    <rect width="335" height="720" rx="18" fill="#111318"/>
+    <rect x="16" y="16" width="303" height="74" rx="10" fill="#1c2330"/>
+    <circle cx="43" cy="43" r="14" fill="#3b82f6"/><path d="M37 43h12M43 37v12" stroke="#f5f8ff" stroke-width="2"/>
+    <text x="67" y="41" class="t name" fill="#f3f6fb">Kömür Mavisi</text><text x="67" y="61" class="mono tiny" fill="#8f9dad">NET • CİDDİ • MODERN</text>
+    <rect x="16" y="110" width="303" height="41" rx="8" fill="#202b3d" stroke="#3b82f6" stroke-opacity=".44"/><text x="31" y="136" class="t btn" fill="#e8f0ff">+ Yeni mühendislik sohbeti</text>
+    <text x="19" y="185" class="mono tag" fill="#8b98a7">BUGÜN</text><line x1="77" y1="181" x2="300" y2="181" stroke="#374150"/>
+    <circle cx="33" cy="222" r="15" fill="#223150" stroke="#3b82f6"/><text x="57" y="218" class="t body" fill="#e2e7ee">Donanım &amp; TinyML Mühendisi</text><text x="57" y="238" class="t tiny" fill="#aeb8c4">Bağlantıları ve güç bütçesini hazırladım.</text>
+    <rect x="61" y="270" width="238" height="76" rx="10" fill="#252b35"/><text x="77" y="298" class="t body" fill="#f1f4f7">ESP32 ile motor sürücü tasarla.</text><text x="77" y="319" class="t tiny" fill="#b2bbc3">Pin eşlemesi ve kod da olsun.</text>
+    <rect x="19" y="378" width="281" height="186" rx="9" fill="#171c25" stroke="#394452"/><text x="37" y="407" class="t name" fill="#eaf0f8">Teknik rapor</text><text x="37" y="428" class="mono tiny" fill="#8fa5bf">MİMARİ • DRC • KOD • BOM</text><line x1="37" y1="446" x2="282" y2="446" stroke="#374353"/><rect x="37" y="463" width="113" height="54" fill="#202838"/><rect x="159" y="463" width="113" height="54" fill="#202838"/><text x="47" y="482" class="mono tiny" fill="#8ea0b8">HEDEF MCU</text><text x="47" y="503" class="mono body" fill="#a9cdfd">ESP32-S3</text><text x="169" y="482" class="mono tiny" fill="#8ea0b8">BELLEK</text><text x="169" y="503" class="mono body" fill="#a9cdfd">520 KB</text><text x="37" y="544" class="t body" fill="#d4dbe3">Mimari doğrulandı, 2 uyarı var.</text>
+    <rect x="16" y="648" width="303" height="52" rx="16" fill="#202631" stroke="#424b58"/><text x="34" y="680" class="t body" fill="#9ca9b5">Projenizi anlatın…</text><circle cx="290" cy="674" r="17" fill="#3b82f6"/><path d="M284 674h11M291 668l6 6-6 6" fill="none" stroke="#f5f8ff" stroke-width="2"/>
+  </g>
+  <g transform="translate(460 926)"><circle cx="11" cy="11" r="11" fill="#111318"/><circle cx="38" cy="11" r="11" fill="#1c2330"/><circle cx="65" cy="11" r="11" fill="#3b82f6"/><text x="95" y="17" class="t body" fill="#284654">2. Minimal ve profesyonel</text></g>
+
+  <!-- 3 Aurora Teal -->
+  <g transform="translate(835 182)" filter="url(#shadow)">
+    <rect width="335" height="720" rx="18" fill="#08201f"/>
+    <rect x="16" y="16" width="303" height="74" rx="10" fill="#103331"/>
+    <circle cx="43" cy="43" r="14" fill="#52d6b5"/><path d="M37 43h12M43 37v12" stroke="#08201f" stroke-width="2"/>
+    <text x="67" y="41" class="t name" fill="#eefcf9">Koyu Petrol</text><text x="67" y="61" class="mono tiny" fill="#8bb9af">ÖZGÜN • CANLI • AI ODAKLI</text>
+    <rect x="16" y="110" width="303" height="41" rx="8" fill="#12433d" stroke="#52d6b5" stroke-opacity=".44"/><text x="31" y="136" class="t btn" fill="#dbfcf4">+ Yeni mühendislik sohbeti</text>
+    <text x="19" y="185" class="mono tag" fill="#83aaa2">BUGÜN</text><line x1="77" y1="181" x2="300" y2="181" stroke="#285950"/>
+    <circle cx="33" cy="222" r="15" fill="#164940" stroke="#52d6b5"/><text x="57" y="218" class="t body" fill="#d6ebe5">Donanım &amp; TinyML Mühendisi</text><text x="57" y="238" class="t tiny" fill="#a3c4bb">Bağlantıları ve güç bütçesini hazırladım.</text>
+    <rect x="61" y="270" width="238" height="76" rx="10" fill="#1b3937"/><text x="77" y="298" class="t body" fill="#f1fbf8">ESP32 ile motor sürücü tasarla.</text><text x="77" y="319" class="t tiny" fill="#afd0c7">Pin eşlemesi ve kod da olsun.</text>
+    <rect x="19" y="378" width="281" height="186" rx="9" fill="#0d2b2a" stroke="#2b6359"/><text x="37" y="407" class="t name" fill="#e7faf4">Teknik rapor</text><text x="37" y="428" class="mono tiny" fill="#86bcb0">MİMARİ • DRC • KOD • BOM</text><line x1="37" y1="446" x2="282" y2="446" stroke="#28584f"/><rect x="37" y="463" width="113" height="54" fill="#123836"/><rect x="159" y="463" width="113" height="54" fill="#123836"/><text x="47" y="482" class="mono tiny" fill="#8cbcb1">HEDEF MCU</text><text x="47" y="503" class="mono body" fill="#a9f0dc">ESP32-S3</text><text x="169" y="482" class="mono tiny" fill="#8cbcb1">BELLEK</text><text x="169" y="503" class="mono body" fill="#a9f0dc">520 KB</text><text x="37" y="544" class="t body" fill="#d4e8e3">Mimari doğrulandı, 2 uyarı var.</text>
+    <rect x="16" y="648" width="303" height="52" rx="16" fill="#133532" stroke="#386f64"/><text x="34" y="680" class="t body" fill="#a1c2b9">Projenizi anlatın…</text><circle cx="290" cy="674" r="17" fill="#52d6b5"/><path d="M284 674h11M291 668l6 6-6 6" fill="none" stroke="#08201f" stroke-width="2"/>
+  </g>
+  <g transform="translate(835 926)"><circle cx="11" cy="11" r="11" fill="#08201f"/><circle cx="38" cy="11" r="11" fill="#103331"/><circle cx="65" cy="11" r="11" fill="#52d6b5"/><text x="95" y="17" class="t body" fill="#284654">3. Daha özgün, yumuşak AI</text></g>
+
+  <!-- 4 Warm Obsidian -->
+  <g transform="translate(1210 182)" filter="url(#shadow)">
+    <rect width="335" height="720" rx="18" fill="#15120f"/>
+    <rect x="16" y="16" width="303" height="74" rx="10" fill="#282118"/>
+    <circle cx="43" cy="43" r="14" fill="#f4b860"/><path d="M37 43h12M43 37v12" stroke="#15120f" stroke-width="2"/>
+    <text x="67" y="41" class="t name" fill="#fff7e7">Sıcak Obsidyen</text><text x="67" y="61" class="mono tiny" fill="#c3ae8e">ATÖLYE • PREMIUM • SICAK</text>
+    <rect x="16" y="110" width="303" height="41" rx="8" fill="#3a2f1e" stroke="#f4b860" stroke-opacity=".42"/><text x="31" y="136" class="t btn" fill="#fff0cd">+ Yeni mühendislik sohbeti</text>
+    <text x="19" y="185" class="mono tag" fill="#af9a7a">BUGÜN</text><line x1="77" y1="181" x2="300" y2="181" stroke="#56452f"/>
+    <circle cx="33" cy="222" r="15" fill="#49391f" stroke="#f4b860"/><text x="57" y="218" class="t body" fill="#f0e2c9">Donanım &amp; TinyML Mühendisi</text><text x="57" y="238" class="t tiny" fill="#c8b99f">Bağlantıları ve güç bütçesini hazırladım.</text>
+    <rect x="61" y="270" width="238" height="76" rx="10" fill="#2b261f"/><text x="77" y="298" class="t body" fill="#fff8e9">ESP32 ile motor sürücü tasarla.</text><text x="77" y="319" class="t tiny" fill="#cbbda8">Pin eşlemesi ve kod da olsun.</text>
+    <rect x="19" y="378" width="281" height="186" rx="9" fill="#1c1915" stroke="#5b4a32"/><text x="37" y="407" class="t name" fill="#fff3da">Teknik rapor</text><text x="37" y="428" class="mono tiny" fill="#cfb487">MİMARİ • DRC • KOD • BOM</text><line x1="37" y1="446" x2="282" y2="446" stroke="#584831"/><rect x="37" y="463" width="113" height="54" fill="#2b251e"/><rect x="159" y="463" width="113" height="54" fill="#2b251e"/><text x="47" y="482" class="mono tiny" fill="#c4aa80">HEDEF MCU</text><text x="47" y="503" class="mono body" fill="#ffe0a0">ESP32-S3</text><text x="169" y="482" class="mono tiny" fill="#c4aa80">BELLEK</text><text x="169" y="503" class="mono body" fill="#ffe0a0">520 KB</text><text x="37" y="544" class="t body" fill="#eadbc4">Mimari doğrulandı, 2 uyarı var.</text>
+    <rect x="16" y="648" width="303" height="52" rx="16" fill="#2b261f" stroke="#5a4b37"/><text x="34" y="680" class="t body" fill="#c6b7a1">Projenizi anlatın…</text><circle cx="290" cy="674" r="17" fill="#f4b860"/><path d="M284 674h11M291 668l6 6-6 6" fill="none" stroke="#15120f" stroke-width="2"/>
+  </g>
+  <g transform="translate(1210 926)"><circle cx="11" cy="11" r="11" fill="#15120f"/><circle cx="38" cy="11" r="11" fill="#282118"/><circle cx="65" cy="11" r="11" fill="#f4b860"/><text x="95" y="17" class="t body" fill="#284654">4. Sıcak atölye hissi</text></g>
+  <text x="85" y="1010" class="t sub" fill="#3b5e6d">Bana sadece <tspan font-weight="700">1, 2, 3 veya 4</tspan> yazman yeterli. İstersen “biraz daha açık/koyu” da diyebilirsin.</text>
+</svg>
